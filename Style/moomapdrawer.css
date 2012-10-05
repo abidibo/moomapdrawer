@@ -1,0 +1,42 @@
+#gmapdraw_controllers_container .active {
+	display: block !important;
+}
+#gmapdraw_controllers_container .inactive {
+	display: none !important;
+}
+#gmapdraw_controllers_container .link {
+	color: #ffff00;
+	cursor: pointer;
+}
+.selected {
+	color: #ffcc66 !important;
+}
+#gmap_draw {
+	position: relative;
+}
+#gmapdraw_controllers_container {
+	background: #333;
+	opacity: 0.9;
+	color: #fff;
+	height: 32px;
+	z-index: 10;
+	padding-left: 0;
+	margin: 0;
+	font-family: Arial, Times New Roman
+	font-size: 10px;
+}
+
+#gmapdraw_controllers_container input {
+	font-size: 10px;
+	position: relative;
+	top: 4px;
+}
+#gmapdraw_clear_map_ctrl, #gmapdraw_export_map_ctrl, #gmapdraw_point_tool, #gmapdraw_polyline_tool, #gmapdraw_polygon_tool, #gmapdraw_circle_tool {
+	float: left;
+	padding: 5px 5px;
+	cursor:pointer;
+}
+#gmapdraw_tips_map_ctrl {
+	float: right;
+	padding: 5px 10px;
+}
