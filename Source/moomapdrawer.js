@@ -10,7 +10,7 @@ authors:
 requires:
 - core/1.4.4
 
-provides: [moomapdraw.map, moomapdraw.tool, moomapdraw.pointTool, moomapdraw.polylineTool, moomapdraw.polygonTool, moomapdraw.circleTool]
+provides: moomapdrawer
 
 ...
 */
