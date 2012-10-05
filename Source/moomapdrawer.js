@@ -10,19 +10,15 @@ authors:
 requires:
 - core/1.4.4
 
-provides:
-- moomapdraw.map
-- moomapdraw.tool
-- moomapdraw.pointTool
-- moomapdraw.polylineTool
-- moomapdraw.polygonTool
-- moomapdraw.circleTool
+provides: [moomapdraw.map, moomapdraw.tool, moomapdraw.pointTool, moomapdraw.polylineTool, moomapdraw.polygonTool, moomapdraw.circleTool]
 
 ...
-
-For documentation, demo and download link please visit http://www.abidibo.net/projects/js/moomapdrawer
-
 */
+
+/*
+For documentation, demo and download link please visit http://www.abidibo.net/projects/js/moomapdrawer
+*/
+
 /**
  * moomapdrawer namespace
  * @namespace
