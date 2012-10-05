@@ -1,6 +1,6 @@
 /*
 ---
-moomapdrawer is a plugin which lets you draw, export and import shapes (point, polyline, polygon, circle) over a google map (api v3) with the mouse or through geocoding.
+description: moomapdrawer is a plugin which lets you draw shapes (point, polyline, polygon, circle) over a google map (api v3) with the mouse or through geocoding. Such shapes may be exported and passed to a callback function in order to save them. It is possible also to import shapes and edit them so that it is the perfect plugin to use in an insert/edit format for geolocalization.
 
 license: MIT-style
 
@@ -10,7 +10,7 @@ authors:
 requires:
 - core/1.4.4
 
-provides: [moomapdrawer]
+provides: [moomapdrawer.map, moomapdrawer.tool, moomapdrawer.pointTool, moomapdrawer.polylineTool, moomapdrawer.polygonTool, moomapdrawer,circleTool]
 
 ...
 */
