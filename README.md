@@ -1,14 +1,14 @@
+NO LONGER UNDER ACTIVE DEVELOPMENT
+----------------------------------
+
+moomapdrawer development has been ceased. The library has been replaced in favour of [geodrawer](https://github.com/abidibo/geodrawer), which is cooler, more easy to install and mantain, less intrusive and with a nice development environment involving nodejs, webpack and babel.
+
 moomapdrawer
 ===========
 
-![Screenshot](http://github.com/abidibo/moomapdrawer/raw/master/logo.jpg)
+![Screenshot](https://github.com/abidibo/moomapdrawer/blob/master/Docs/mmd_screenshot1.png)
 
 moomapdrawer is a plugin which lets you draw shapes (point, polyline, polygon, circle) over a google map (api v3) with the mouse or through geocoding. Such shapes may be exported and passed to a callback function in order to save them. It is possible also to import shapes and edit them so that is the perfect plugin to use in a insert/edit format for geolocalization.
-
-Important
-----------
-
-moomapdrawer development has been ceased. The library has been replaced in favour of [geodrawer](https://github.com/abidibo/geodrawer), which is cooler, more easy to install and mantain, less intrusive and with a nice development environment involving nodejs, webpack and babel.
 
 How to use
 ----------
